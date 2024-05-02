@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="formu">
+    <form>
+        <h1>Validação de Endereço</h1>
+       
+            <input id="idCep" type="text" name="cep" onblur="preencherEndereco(this)" required placeholder="CEP"> <br><br>
+
+                <input id="idLogradouro" type="text" required placeholder="Logradouro"><br><br>
+
+                <input id="idBairro" type="text"  required placeholder="Bairro"><br><br>
+
+                <input id="idUf" type="text" required placeholder="Estado"><br><br>
+
+                <input id="idComplemento" type="text" required placeholder="Complemento"><br><br>
+
+                <input id="idNumero" type="text" required placeholder="Número"><br><br>
+
+                <button type="submit">Cadastrar</button>
+                <button type="reset">Limpar</button>
+                <button>Voltar</button>
+    </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
